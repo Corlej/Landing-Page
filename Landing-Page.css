@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 button {
@@ -11,7 +12,10 @@ button {
 }
 
 ul {
+    display: flex;
     list-style: none;
+    margin: 0;
+    gap: 20px;
 }
 
 a {
@@ -25,14 +29,11 @@ a {
 .footer {
     background-color: #1F2937;
 }
-.hero {
-    color:#F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
 
 .header {
-
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 200px;
 }
 
 .logo {
@@ -41,15 +42,27 @@ a {
     font-weight: bolder;
 }
 
-.headerlink {
-
-}
-
 .headerlink,
 .herosecondary,
-.imageplaceholder {
+.placeholder {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.first {
+    display: flex;
+    padding: 100px 200px;
+    gap: 60px;
+}
+.firstleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .button1 {
@@ -57,25 +70,70 @@ a {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
+    margin: 20px 0px;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #70747c;
+    width: 525px;
+    height: 230px;
 }
 
 .second {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
 }
 
-.information {
+.infotitle {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    padding: 40px;
+}
+
+.infobox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    height: 175px;
+    width: 175px;
 }
 
 .imagesubtext {
+    text-align: center;
     color: #1F2937;
     font-size: 18px;
+    max-width: 175px;
 }
 
 .third {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
 }
 
 .quote {
@@ -83,12 +141,15 @@ a {
     font-size: 36px;
     font-weight:lighter;
     font-style: italic;
+    line-height: 125%;
 }
 
 .source {
+    align-self: flex-end;
     color: #1F2937;
     font-size: 18px;
     font-weight: bold;
+    max-width: 800px;
 }
 
 .fourth {

@@ -118,7 +118,7 @@ a {
 
 .imagesubtext {
     text-align: center;
-    color: #1F2937;
+    color: #70747c;
     font-size: 18px;
     max-width: 175px;
 }
@@ -153,8 +153,15 @@ a {
 }
 
 .fourth {
-    background-color: #3882F6;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 100px 200px;  
 }
+
 
 .signup,
 .signup-info,
@@ -169,4 +176,12 @@ a {
 
 .button2 {
     border-color: #F9FAF8
+}
+
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
 }
